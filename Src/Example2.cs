@@ -27,7 +27,7 @@ public static class Example2
 		//
 		foreach (var asm in AppDomain.CurrentDomain.GetAssemblies())
 		{
-			asmMetaRefPoolD.AdddMetadataOf(asm);
+			asmMetaRefPoolD.AddMetadataOf(asm);
 		}
 
 
@@ -55,7 +55,7 @@ public static class Example2
 			return;
 		}
 
-		asmMetaRefPoolD.AdddMetadataOf(classLibAsm);
+		asmMetaRefPoolD.AddMetadataOf(classLibAsm);
 
 
 		//

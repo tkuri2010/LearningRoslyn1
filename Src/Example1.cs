@@ -26,7 +26,7 @@ public static class Example1
 		//
 		foreach (var asm in AppDomain.CurrentDomain.GetAssemblies())
 		{
-			asmMetaRefPoolD.AdddMetadataOf(asm);
+			asmMetaRefPoolD.AddMetadataOf(asm);
 		}
 
 

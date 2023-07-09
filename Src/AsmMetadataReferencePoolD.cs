@@ -21,7 +21,7 @@ public class AsmMetadataReferencePoolD : IDisposable
 	/// https://github.com/dotnet/runtime/issues/36590#issuecomment-689883856
 	/// </summary>
 	/// <param name="asm"></param>
-	unsafe public void AdddMetadataOf(Assembly asm)
+	unsafe public void AddMetadataOf(Assembly asm)
 	{
 		if (! asm.TryGetRawMetadata(out var blob, out var len))
 		{
